@@ -10,6 +10,10 @@
 		4023C7401C67AC2500EEB929 /* MelonBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4023C73F1C67AC2500EEB929 /* MelonBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4023C7471C67AC2500EEB929 /* MelonBaseViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4023C73C1C67AC2500EEB929 /* MelonBaseViewController.framework */; };
 		4023C74C1C67AC2500EEB929 /* MelonBaseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023C74B1C67AC2500EEB929 /* MelonBaseViewControllerTests.m */; };
+		40CDDA5C1C6924BB00129F4F /* MBFContentPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CDDA581C6924BB00129F4F /* MBFContentPageViewController.h */; };
+		40CDDA5D1C6924BB00129F4F /* MBFContentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDDA591C6924BB00129F4F /* MBFContentPageViewController.m */; };
+		40CDDA5E1C6924BB00129F4F /* MBFPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CDDA5A1C6924BB00129F4F /* MBFPageViewController.h */; };
+		40CDDA5F1C6924BB00129F4F /* MBFPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDDA5B1C6924BB00129F4F /* MBFPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,11 @@
 		4023C7461C67AC2500EEB929 /* MelonBaseViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelonBaseViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4023C74B1C67AC2500EEB929 /* MelonBaseViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelonBaseViewControllerTests.m; sourceTree = "<group>"; };
 		4023C74D1C67AC2500EEB929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CDDA581C6924BB00129F4F /* MBFContentPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFContentPageViewController.h; sourceTree = "<group>"; };
+		40CDDA591C6924BB00129F4F /* MBFContentPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFContentPageViewController.m; sourceTree = "<group>"; };
+		40CDDA5A1C6924BB00129F4F /* MBFPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPageViewController.h; sourceTree = "<group>"; };
+		40CDDA5B1C6924BB00129F4F /* MBFPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPageViewController.m; sourceTree = "<group>"; };
+		40CDDA601C6926CB00129F4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,7 @@
 		4023C7321C67AC2500EEB929 = {
 			isa = PBXGroup;
 			children = (
+				40CDDA601C6926CB00129F4F /* UIKit.framework */,
 				4023C73E1C67AC2500EEB929 /* MelonBaseViewController */,
 				4023C74A1C67AC2500EEB929 /* MelonBaseViewControllerTests */,
 				4023C73D1C67AC2500EEB929 /* Products */,
@@ -71,6 +81,7 @@
 		4023C73E1C67AC2500EEB929 /* MelonBaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				403BAE861C690DFB004C7357 /* Page View Controller */,
 				4023C73F1C67AC2500EEB929 /* MelonBaseViewController.h */,
 				4023C7411C67AC2500EEB929 /* Info.plist */,
 			);
@@ -86,6 +97,17 @@
 			path = MelonBaseViewControllerTests;
 			sourceTree = "<group>";
 		};
+		403BAE861C690DFB004C7357 /* Page View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40CDDA581C6924BB00129F4F /* MBFContentPageViewController.h */,
+				40CDDA591C6924BB00129F4F /* MBFContentPageViewController.m */,
+				40CDDA5A1C6924BB00129F4F /* MBFPageViewController.h */,
+				40CDDA5B1C6924BB00129F4F /* MBFPageViewController.m */,
+			);
+			name = "Page View Controller";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +115,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CDDA5C1C6924BB00129F4F /* MBFContentPageViewController.h in Headers */,
+				40CDDA5E1C6924BB00129F4F /* MBFPageViewController.h in Headers */,
 				4023C7401C67AC2500EEB929 /* MelonBaseViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CDDA5D1C6924BB00129F4F /* MBFContentPageViewController.m in Sources */,
+				40CDDA5F1C6924BB00129F4F /* MBFPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +400,7 @@
 				4023C7521C67AC2500EEB929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4023C7531C67AC2500EEB929 /* Build configuration list for PBXNativeTarget "MelonBaseViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +409,7 @@
 				4023C7551C67AC2500EEB929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBFPageViewController.h"
+#import "MBFContentPageViewController.h"
 
 //! Project version number for MelonBaseViewController.
 FOUNDATION_EXPORT double MelonBaseViewControllerVersionNumber;
