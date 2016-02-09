@@ -10,6 +10,8 @@
 		4023C7401C67AC2500EEB929 /* MelonBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4023C73F1C67AC2500EEB929 /* MelonBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4023C7471C67AC2500EEB929 /* MelonBaseViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4023C73C1C67AC2500EEB929 /* MelonBaseViewController.framework */; };
 		4023C74C1C67AC2500EEB929 /* MelonBaseViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023C74B1C67AC2500EEB929 /* MelonBaseViewControllerTests.m */; };
+		408B255D1C6A60CF00E9C360 /* MBFBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 408B255B1C6A60CF00E9C360 /* MBFBaseViewController.h */; };
+		408B255E1C6A60CF00E9C360 /* MBFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 408B255C1C6A60CF00E9C360 /* MBFBaseViewController.m */; };
 		40CDDA5C1C6924BB00129F4F /* MBFContentPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CDDA581C6924BB00129F4F /* MBFContentPageViewController.h */; };
 		40CDDA5D1C6924BB00129F4F /* MBFContentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDDA591C6924BB00129F4F /* MBFContentPageViewController.m */; };
 		40CDDA5E1C6924BB00129F4F /* MBFPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CDDA5A1C6924BB00129F4F /* MBFPageViewController.h */; };
@@ -33,6 +35,8 @@
 		4023C7461C67AC2500EEB929 /* MelonBaseViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelonBaseViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4023C74B1C67AC2500EEB929 /* MelonBaseViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MelonBaseViewControllerTests.m; sourceTree = "<group>"; };
 		4023C74D1C67AC2500EEB929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408B255B1C6A60CF00E9C360 /* MBFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFBaseViewController.h; sourceTree = "<group>"; };
+		408B255C1C6A60CF00E9C360 /* MBFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFBaseViewController.m; sourceTree = "<group>"; };
 		40CDDA581C6924BB00129F4F /* MBFContentPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFContentPageViewController.h; sourceTree = "<group>"; };
 		40CDDA591C6924BB00129F4F /* MBFContentPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFContentPageViewController.m; sourceTree = "<group>"; };
 		40CDDA5A1C6924BB00129F4F /* MBFPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPageViewController.h; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		4023C73E1C67AC2500EEB929 /* MelonBaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				409580281C692DB300EED227 /* Base View Controller */,
 				403BAE861C690DFB004C7357 /* Page View Controller */,
 				4023C73F1C67AC2500EEB929 /* MelonBaseViewController.h */,
 				4023C7411C67AC2500EEB929 /* Info.plist */,
@@ -108,6 +113,15 @@
 			name = "Page View Controller";
 			sourceTree = "<group>";
 		};
+		409580281C692DB300EED227 /* Base View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				408B255B1C6A60CF00E9C360 /* MBFBaseViewController.h */,
+				408B255C1C6A60CF00E9C360 /* MBFBaseViewController.m */,
+			);
+			name = "Base View Controller";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -115,6 +129,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408B255D1C6A60CF00E9C360 /* MBFBaseViewController.h in Headers */,
 				40CDDA5C1C6924BB00129F4F /* MBFContentPageViewController.h in Headers */,
 				40CDDA5E1C6924BB00129F4F /* MBFPageViewController.h in Headers */,
 				4023C7401C67AC2500EEB929 /* MelonBaseViewController.h in Headers */,
@@ -219,6 +234,7 @@
 			files = (
 				40CDDA5D1C6924BB00129F4F /* MBFContentPageViewController.m in Sources */,
 				40CDDA5F1C6924BB00129F4F /* MBFPageViewController.m in Sources */,
+				408B255E1C6A60CF00E9C360 /* MBFBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

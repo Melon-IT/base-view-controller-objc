@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 Melon IT. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MBFBaseViewController.h"
 
 typedef NS_ENUM(NSUInteger, ScrollDirectionType) {
   ScrollDirectionTypeLeft,
   ScrollDirectionTypeRight
 };
 
-@interface MBFContentPageViewController : UIViewController
+@interface MBFContentPageViewController : MBFBaseViewController
 
 @property (nonatomic, weak) UIViewController* pageViewController;
 

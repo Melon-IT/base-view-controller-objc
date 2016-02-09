@@ -7,11 +7,11 @@
 //
 
 
-#import <UIKit/UIKit.h>
+#import "MBFBaseViewController.h"
 
 @class MBFContentPageViewController;
 
-@interface MBFPageViewController : UIViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIScrollViewDelegate> {
+@interface MBFPageViewController : MBFBaseViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIScrollViewDelegate> {
   
 @protected
   UIPageViewController* pageViewController;
